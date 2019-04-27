@@ -1,3 +1,7 @@
 body {
   text-align: center;
 }
+body ul {
+  width: 20%;
+  margin: auto;
+}
