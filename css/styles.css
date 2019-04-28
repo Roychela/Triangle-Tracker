@@ -22,7 +22,7 @@ body ul {
   padding: 10px;
   font-size: 24px;
 }
-.field input[type ="submit"] {
+.field input[type ="button"] {
   color: white;
   background: transparent;
   padding: 8px 16px;
