@@ -6,4 +6,8 @@ function triangle() {
   var sumTwoSides1 = (side1+side2);
   var sumTwoSides2 = (side1+side3);
   var sumTwoSides3 = (side2+side3);
+
+  if (side1===side2 && side1===side3) {
+    alert("This is an equilateral triangle");
+  }
 }
