@@ -7,6 +7,11 @@ body ul {
   width: 20%;
   margin: auto;
 }
+body p {
+  font-size: 24px;
+  font-style: italic;
+  font-family: sans-serif;
+}
 .field {
   justify-content: center;
   background: rgba(0,0,0,.8);
