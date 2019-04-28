@@ -3,6 +3,12 @@ body {
   background-color: #a8e063;
 
 }
+body h1 {
+  font-size: 48px;
+  color: purple;
+  font-family: sans-serif;
+  text-decoration: underline;
+}
 body ul {
   width: 20%;
   margin: auto;
