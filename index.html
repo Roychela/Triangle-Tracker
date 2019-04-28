@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Triangle Trackerct</title>
     <link rel="stylesheet" href="css/styles.css" type="text/css">
+
   </head>
   <body>
     <h1>Triangle Tracker</h1>
@@ -20,22 +21,20 @@
     <img src="images/triangle2.png" alt="A photo of a triangle">
 
     <div class="field">
-      <form name="sides">
         <div class="inputfield">
           <label>Enter length of side AB</label>
-          <input type="text" name="sideAB" value="">
+          <input type="text" id="sideAB">
         </div>
         <div class="inputfield">
           <label>Enter length of side AC</label>
-          <input type="text" name="sideAC" value="">
+          <input type="text" id="sideAC">
         </div>
         <div class="inputfield">
           <label>Enter length of side BC</label>
-          <input type="text" name="sideBC" value="">
+          <input type="text" id="sideBC">
         </div>
-        <input type="submit" name="" value="Check">
-      </form>
+        <input type="button" name="button" value="Check" onclick="triangle()">
     </div>
-
+    <script src="js/scripts.js"></script>
   </body>
 </html>
