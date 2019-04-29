@@ -1,8 +1,4 @@
-body {
-  text-align: center;
-  background-color: #a8e063;
 
-}
 body h1 {
   font-size: 48px;
   color: purple;
@@ -47,4 +43,18 @@ body p {
   float: left;
   margin-left: 390px;
 
+}
+@media screen and (min-width: 480px) and (max-width: 767px) {
+      body {
+        text-align: center;
+        background-color: silver;
+
+      }
+}
+@media screen and (min-width: 768px) {
+  body {
+
+    text-align: center;
+    background-color: #a8e063;
+  }
 }
